@@ -1,0 +1,205 @@
+/* Navbar */
+.navbar-custom {
+    background: #fff;
+}
+
+#logo {
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 70px;
+}
+.navbar-nav > li > a:hover {
+    color: #4aaaa5;
+  }
+.navbar-right-custom {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-top: 6px;
+    padding-right: 20px;
+}
+
+body {
+    background-image: url(../assets/img/ignasi_pattern_s.png);
+    margin-bottom: 150px;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/* About me */
+
+.about-me-content {
+    background: white;
+    width: 100%;
+    margin-top: 32px;
+    padding: 30px;
+}
+.about-me-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 33px;
+}
+#profile_img {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+  float: left;
+}
+.about-me-content > p {
+    font-size: 16px;
+    color: #bbc;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+/* Connect with me */
+
+.connect-with-me-img {
+    width: 55px;
+    height: 55px;
+}
+#images {
+    text-align: center;
+    padding-top: 15px;
+}
+#connect-with-me-area {
+    background: white;
+    width: 100%;
+    margin-top: 32px;
+    padding: 30px 30px 43px;
+}
+.connect-with-me-header {
+    font-size: 25px;
+    font-weight: bold;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+
+.footer {
+    background: #666;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    margin-top: 30px;
+    bottom: 0;
+}
+.two-toned-footer-color {
+    height: 6px;
+    background-color: #4aaaa5;
+    padding-top: 3px;
+}
+.text-muted-footer {
+    color: #fff;
+    margin-top: 15px;
+
+}
+/* Contact Form */
+
+.contact-form {
+    background: white;
+    padding: 45px 10px 25px 31px;
+    width: 100%;
+    margin-top: 30px;
+}
+#name_input, #mail_input, #msg {
+    height: 30px;
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#msg {
+    border-color: #bbc;
+    height: 200px;
+}
+.submit-btn {
+    background-color: #4aaaa5;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 15px 30px;
+    border-radius: 5%;
+}
+.contact-form-header, .port-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 33px;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+.submit-btn:hover {
+    color: black;
+    background: yellowgreen;
+}
+.contact-hr {
+    margin-bottom: 30px;
+  }
+.label-name, .label-msg, .label-mail {
+    color: #bbc;
+    font-size: 17px;
+}
+/* Portfolio */
+
+.port-imgs {
+    width: 233px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    height: 166px;
+}
+.port-hr {
+    margin-bottom: 40px;}
+
+#portfolio-area {
+    background: #fff;
+    padding: 45px 10px 25px 31px;
+    width: 85%;
+    margin-bottom: 200px;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 768px) {
+    #logo {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width: 100%;
+        font-size: 24px;
+        font-weight: bold;
+        color: #fff;
+        height: 60px;
+        background: #4aaaa5;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        text-align: center;
+        margin-left: 0;
+
+
+    }
+    .row, #connect-with-me-area {
+        max-width: 100%;
+    }
+    .wrap {
+        overflow: auto;
+    }
+    #profile_img {
+        width: 50%;
+    }
+    #connect-with-me-area {
+        margin-bottom: 40px;
+    }
+    .port-imgs {
+        width: 47%;
+    }
+} 
